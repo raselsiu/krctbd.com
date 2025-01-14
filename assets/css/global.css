@@ -968,8 +968,6 @@ img{
 }
 
 .btn-style-one:before{
-	-webkit-transition-duration: 800ms;
-	transition-duration: 800ms;
 	position: absolute;
 	width: 200%;
 	height: 200%;
@@ -1056,8 +1054,6 @@ img{
 }
 
 .btn-style-two:before{
-	-webkit-transition-duration: 800ms;
-	transition-duration: 800ms;
 	position: absolute;
 	width: 200%;
 	height: 200%;

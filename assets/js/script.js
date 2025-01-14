@@ -51,31 +51,11 @@
 		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
 			e.preventDefault();
 		});
-		
-		//$('.hamburger').on('click', function(e) {
-			//$('.about-sidebar').addClass('active');
-		//});
-		
-		//$('.about-sidebar .close-button').on('click', function(e) {
-			//$('.about-sidebar').removeClass('active');
-		//});
-		
-		//$('.about-sidebar .gradient-layer').on('click', function(e) {
-			//$('.about-sidebar').removeClass('active');
-		//});
-		
-		//$('.xs-sidebar-group .close-button').on('click', function(e) {
-			//$('.xs-sidebar-group.info-group').removeClass('isActive');
-		//});
-		
-		//$('.newsletter-close-btn').on('click', function(e) {
-			//$('.quickview-popup-area-section').removeClass('active');
-		//});
+
 		
 	}
 	
-	// Menu Aimation
-	document.querySelectorAll('.main-menu .navigation > li > a').forEach(button => button.innerHTML = '<div class="menu-text"><span>' + button.textContent.split('').join('</span><span>') + '</span></div>');
+
 	
 	
 	//Mobile Nav Hide Show
@@ -180,13 +160,7 @@
 	
 	
 	
-	
-	//Parallax Scene for Icons
-	if($('.parallax-scene-1').length){
-		var scene = $('.parallax-scene-1').get(0);
-		var parallaxInstance = new Parallax(scene);
-	}
-	
+
 	
 	
 	if($('.paroller').length){
@@ -199,56 +173,7 @@
 	}
 	
 	
-	
-	//  Animation Fade Left End
 
-	/////////////////////////////////////////////////////
-	// CURSOR
-	var cursor = $(".cursor"),
-	follower = $(".cursor-follower");
-
-	var posX = 0,
-		posY = 0;
-
-	var mouseX = 0,
-		mouseY = 0;
-
-	TweenMax.to({}, 0.016, {
-	repeat: -1,
-	onRepeat: function() {
-		posX += (mouseX - posX) / 9;
-		posY += (mouseY - posY) / 9;
-
-		TweenMax.set(follower, {
-			css: {
-			left: posX - 12,
-			top: posY - 12
-			}
-		});
-
-		TweenMax.set(cursor, {
-			css: {
-			left: mouseX,
-			top: mouseY
-			}
-		});
-	}
-	});
-
-	$(document).on("mousemove", function(e) {
-		mouseX = e.clientX;
-		mouseY = e.clientY;
-	});
-	//circle
-	$(".theme-btn, a").on("mouseenter", function() {
-		cursor.addClass("active");
-		follower.addClass("active");
-	});
-	$(".theme-btn, a").on("mouseleave", function() {
-		cursor.removeClass("active");
-		follower.removeClass("active");
-	});   
-	// CURSOR End
 
 
 	
@@ -683,16 +608,7 @@
     /////////////////////////////////////////////////////
 
 
-	//var slider = new Swiper('.tel-promotion-video-slider', {
-		//spaceBetween: 30,
-		//slidesPerView: 1,
-		//effect: 'fade',
-		//loop: true,
-		//navigation: {
-			//nextEl: ".promo-button-next",
-			//prevEl: ".promo-button-prev",
-		//},
-	//});
+	
 
 
 	//Header Search
