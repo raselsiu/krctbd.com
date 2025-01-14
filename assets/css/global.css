@@ -1,62 +1,8 @@
-/* Al-Quran Business HTML-5 Template */
-
-/************ TABLE OF CONTENTS ***************
-1. Fonts
-2. Reset
-3. Global
-4. Main Header / Two / Three
-5. Slider One / Two / Three
-6. Featured One
-7. Welcome One / Two / Three
-8. Service One
-9. Student One
-10. Course One / Two
-11. CTA One / Two
-12. Institute One
-13. Testimonial One / Two
-14. Price One
-15. Gallery One / Two
-16. News One / Two
-17. Main Footer
-18. Scholar One
-19. Page Title
-20. Faq
-21. Price
-22. Prayer Time
-23. Record Class
-24. Events
-25. Events Detail
-26. Services Detail
-27. Courses Detail
-28. Register
-29. Our Blog
-30. Blog Classic
-31. Not Found
-32. Contact Info
-33. Contact Form
-34. Map
-
-**********************************************/
-
-/* 
-
-	font-family: 'Lexend', sans-serif;
-
-*/
-
-/*** 
-
-====================================================================
-	Root Code Variables
-====================================================================
-
- ***/
 
 .theme_color{
 	color:var(--main-color);
 }
 
-/* Theme Color */
 
 :root {
 	
@@ -738,9 +684,6 @@ h1,h2,h3,h4,h5,h6 {
     
 }
 
-input,button,select,textarea{
-	
-}
 
 textarea{
 	overflow:hidden;

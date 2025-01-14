@@ -1,12 +1,4 @@
-/* Al-Quran Online Business HTML-5 Template */
 
-/*** 
-
-====================================================================
-	Attachment Css Files
-====================================================================
-
-***/
 
 @import url('global.css');
 @import url('header.css');
@@ -260,16 +252,16 @@
 	background-position: center center;
 	background-repeat: repeat-x;
 	background-color: var(--color-eight);
+	background-size: 194px 160px;
 }
 
 .feature-block_one{
 	position: relative;
-	margin-bottom: var(--margin-bottom-30);
+	margin-bottom: var(--margin-bottom-10);
 }
 
 .feature-block_one-inner{
 	position: relative;
-	padding-left: 135px;
 	font-weight: 500;
 	line-height: 30px;
 	min-height: 110px;
@@ -434,39 +426,13 @@
 }
 
 .welcome-one_image::before{
-	position: absolute;
+	position: absolute;	
 	content: '';
 	left: -15px;
 	width: 15px;
 	top: 90px;
 	bottom: 0px;
 	background-color: var(--main-color);
-}
-
-.welcome-one_image::after{
-	position: absolute;
-	content: '';
-	left: -15px;
-	width: 15px;
-	top: 50px;
-	height: 40px;
-	background-color: var(--color-two);
-}
-
-.welcome-one_image img{
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	border-radius: 10px;
-}
-
-.welcome-one_ameen{
-	position: absolute;
-	right: -170px;
-	top: 40px;
-	z-index: 1;
-	-webkit-animation: icon-bounce 0.8s ease-out infinite;
-    animation: icon-bounce 0.8s ease-out infinite;
 }
 
 .welcome-one_years{
@@ -1311,8 +1277,10 @@
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-    background: linear-gradient(to bottom, #2b9155 0%, #a7ae34 100%);
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
 }
+
+
 
 .institute-block_one-inner:hover::before{
 	opacity: 1;
