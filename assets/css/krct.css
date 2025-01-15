@@ -12,7 +12,7 @@
   }
 
 .event_date_box {
-    background-color: #1ea126;
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
     width: 140px;
     height: 108px;
     text-align: center;
@@ -83,4 +83,41 @@
 }
 .institute-block_one-text {
     color: rgb(71 51 59);
+}
+.progress-wrap::after {
+    color: #28a745;
+}
+.progress-wrap svg.progress-circle path {
+    stroke: #28a745;
+}
+
+.footer_socials a:hover {
+    color: rgb(255 253 248);
+    background-color: #28a745;
+}
+
+.footer-logo img {
+    margin-left: 0px;
+    width: 200px;
+    margin-top: -46px;
+}
+
+.gallery-two.style-two {
+    position: relative;
+    padding-bottom: 0;
+}
+
+.news-block_one-more {
+    border-radius: 5px;
+    background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+    color: #000000;
+}
+.news-block_one-more:hover {
+    color: #ffffff;
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+
+}
+
+.news-block_one-info {
+    border: none
 }
