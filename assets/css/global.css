@@ -907,7 +907,7 @@ img{
 	color: var(--white-color);
 	font-size: var(--font-14);
 	text-transform: capitalize;
-	background-color: var(--main-color);
+	background-color:#28a745;
 }
 
 .btn-style-one:before{

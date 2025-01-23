@@ -248,7 +248,7 @@
 .featured-one .inner-container{
 	position: relative;
 	border-radius: 5px;
-	padding: 38px 90px 9px;
+	padding: 5px 90px 9px;
 	background-position: center center;
 	background-repeat: repeat-x;
 	background-color: var(--color-eight);
@@ -1907,13 +1907,7 @@
 	background-color: var(--color-seven);
 }
 
-/*** 
 
-====================================================================
-	CTA Two
-====================================================================
-
-***/
 
 .cta-two{
 	position: relative;
@@ -1936,7 +1930,6 @@
 
 .cta-two .inner-container{
 	position: relative;
-	border-radius: 5px;
 	overflow: hidden;
 	background: #50bc84;
 	padding: 27px 90px 23px;
@@ -2948,7 +2941,11 @@
 	margin: 0 auto;
 	margin-top: -120px;
 	padding-top: var(--padding-top-35);
-	background: url(../images/background/scholar-one_bg.png);
+	background: url(../images/background/krct/team_bg.png);
+}
+
+.trustees_bg{
+	background: url(../images/background/krct/trustees_member_bg.png);
 }
 
 .scholar-block_one-heading{
@@ -6422,8 +6419,8 @@
 	line-height: 84px;
 	border-radius: 150px;
 	font-size: var(--font-30);
-	color: var(--color-fiftynine);
-	background-color: var(--white-color);
+	color: var(--white-color);
+	background-color: var(--main-color);
 	-webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -6434,7 +6431,6 @@
 .contact-info_outer:hover .contact-info_icon{
 	color: var(--white-color);
 	background-color: var(--main-color);
-	transform: rotateY(180deg);
 }
 
 .contact-info_heading{

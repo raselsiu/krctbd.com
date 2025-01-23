@@ -37,16 +37,7 @@
     color: #09a607;
 }
 
-.header-top .left-box::after{
-	position: absolute;
-	content: '';
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
-	border-top: 25px solid transparent;
-    border-right: 25px solid var(--main-color);
-    border-bottom: 25px solid transparent
-}
+
 
 .header-top .bismillah{
 	position: absolute;
@@ -92,7 +83,7 @@
 	line-height: 14px;
 	display: inline-block;
 	font-size: var(--font-14);
-	color: rgba(255,255,255,0.80);
+	color: #fff;
 	margin-right: var(--margin-right-30);
 	padding-left: var(--padding-left-25);
 }
@@ -588,12 +579,12 @@
 	font-family: var(--font-family-Lexend);
 }
 
-.main-header .main-menu .navigation > li > ul > li > a:before{
+/* .main-header .main-menu .navigation > li > ul > li > a:before{
 	position:absolute;
 	content:'';
 	left:0px;
 	top:6px;
-	width:16px;
+	width:16px; 
 	height:10px;
 	opacity:0;
 	display:inline-block;
@@ -604,7 +595,7 @@
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	background:url(../images/icons/right-arrow.png) no-repeat;
-}
+} */
 
 .main-header .main-menu .navigation > li > ul > li:hover > a{
 	color:var(--color-three);
