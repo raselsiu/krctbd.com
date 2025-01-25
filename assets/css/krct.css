@@ -23,6 +23,30 @@ button.v_btn {
 
 
 /* Timeline Css */
+
+#timeline{
+  margin-top: 150px;
+}
+
+.view_more_services a {
+  display: table;
+  margin: 0 auto;
+  border: 0;
+}
+
+.timeline__event__icon{
+  padding: 20px !important;
+}
+.timeline__event--type2 .timeline__event__title {
+  font-size: 25px;
+}
+.timeline__event__title{
+  font-size: 25px !important;
+}
+.timeline__event:after {
+  height: 140% !important;
+  top: 68%;
+}
 .timeline {
     display: flex;
     flex-direction: column;
@@ -845,4 +869,17 @@ section.theme_light {
   -webkit-box-shadow: 0px 0px 5px 1px rgba(199, 187, 199, 0.59);
   -moz-box-shadow: 0px 0px 5px 1px rgba(199, 187, 199, 0.59);
   box-shadow: 0px 0px 5px 1px rgba(199, 187, 199, 0.59);
+}
+
+
+.footer-logo img {
+  width: 100px;
+  display: table;
+  margin-left: 12%;
+}
+img.footer_top_logo {
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 150px;
 }
