@@ -26,6 +26,8 @@
 	position:relative;
 }
 
+
+
 .slider-one .main-slider-prev{
 	position: absolute;
 	top: 35%;
@@ -425,15 +427,6 @@
 	margin-right: -220px;
 }
 
-.welcome-one_image::before{
-	position: absolute;	
-	content: '';
-	left: -15px;
-	width: 15px;
-	top: 90px;
-	bottom: 0px;
-	background-color: var(--main-color);
-}
 
 .welcome-one_years{
 	position: absolute;
