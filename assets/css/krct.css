@@ -954,3 +954,6 @@ h5.gallery_title {
 .donation-section {
   margin-bottom: 80px;
 }
+.footer-nav{
+  display: none;
+}

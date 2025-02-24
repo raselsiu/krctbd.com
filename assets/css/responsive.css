@@ -1,4 +1,4 @@
-/* Al-Quran Online Business HTML-5 Template */
+
 
 @media only screen and (max-width: 2770px){
 	
@@ -1196,4 +1196,50 @@
 		padding-top: var(--padding-zero);
 	}
 
+
+	.event_date_box {
+		margin: 18px auto;
+	}
+
+	.event_image_box img {
+		margin-top: 15px;
+	}
+	.sec-title_title{
+		display: table !important;
+		margin: 0 auto;
+	}
+	.sec-title_heading{text-align: center;}
+	.welcome-one_image img {
+		border-radius: 15px;
+	}
+	.mtb_100 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.postcard .postcard__img {
+		max-height: 470px;
+	}
+	#timeline {
+		margin-top: 92px;
+	}
+	.timeline__event:before{
+		content: none;
+	}
+	.timeline__event__icon i{
+		display: none;
+	}
+	.timeline__event:after{
+		content: none;
+	}
+	.timeline {
+		width: 75vw;
+	}
+	.timeline__event__description img {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.mble_mrbt_50{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 }
