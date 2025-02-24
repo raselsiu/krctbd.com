@@ -883,3 +883,61 @@ img.footer_top_logo {
   margin-bottom: 50px;
   width: 150px;
 }
+
+.welcome-one_image img {
+  border-radius: 60px;
+}
+
+.service_header {
+  background-color: rgb(0, 142, 72);
+  height: 150px;
+} 
+.service_inner h3 {
+  transform: translateY(50px);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: rgb(0, 142, 72);
+}
+a.nav-link:hover{
+  color: #000;
+}
+a.nav-link{
+  color: #000;
+}
+.nav-pills .nav-link {
+  background: #ededed;
+  margin: 7px 0px;
+  border: 0;
+  border-radius: 0px;
+}
+
+.testimonial-block_two-text {
+  line-height: 28px;
+  font-size: 14px;
+}
+.sec-title.centered.home_gallery h2 {
+  background-color: #ededed;
+  padding: 15px;
+}
+.page-title h2 {
+  color: #ffffff;
+}
+.search-box-btn{
+  display: none !important;
+}
+.bn_line_height{
+  line-height: 50px;
+}
+.medical_corner a{
+  margin-bottom: 50px;
+}
+.medical_corner h4{
+  color: #000;
+}
+.medical_corner{
+  
+}
+.speaker-block_one-socials a {
+  margin-bottom: 0;
+}
