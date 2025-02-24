@@ -731,9 +731,9 @@ button.btn.btn-success.contact_btn {
     font-size: 32px;
     margin-top: 8px;
 }
-.gallery_container{
+/* .gallery_container{
     margin-bottom: 100px;
-}
+} */
 .btn-style-two {
     color: rgb(255 255 255);
     background-color: #28a745
@@ -940,4 +940,17 @@ a.nav-link{
 }
 .speaker-block_one-socials a {
   margin-bottom: 0;
+}
+
+.mt_50_mb_100{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+h5.gallery_title {
+  background: #008e48;
+  padding: 10px 20px;
+  text-align: left;
+}
+.donation-section {
+  margin-bottom: 80px;
 }
